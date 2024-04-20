@@ -1,0 +1,265 @@
+.commodity_store {
+    padding: 3.5% 1.2% 1%;
+    background-color: rgb(245, 245, 245);
+    /* background-color: red; */
+}
+
+.merchant_product {
+    display: flex;
+    padding: 1% 2.5% 1.5% 1%;
+    background-color: white;
+}
+
+.commodity_photo {
+    /* background-color: red; */
+    width: 45%;
+}
+
+.photo-item {
+    width: 90%;
+    height: 90vh;
+    padding: 0.2% 0% 0.2%;
+    object-fit: contain;
+}
+
+.product_share_like {
+    display: flex;
+    padding: 5% 0% 0% 0%;
+}
+
+.product_share {
+    width: 50%;
+    padding: 0% 5% 0% 5%;
+}
+
+.share_icon {
+    width: 12%;
+}
+
+.product_like {
+    width: 50%;
+    padding: 0% 5% 0% 5%;
+}
+
+.heart_icon_link {
+    color: red;
+}
+
+.heart_icon {
+    width: 10%;
+}
+
+.commodity_text {
+    width: 55%;
+    padding: 1% 1% 1% 1%;
+    float: right;
+}
+
+.commodity_name {
+    font-size: 1.8vw;
+}
+
+.commodity_less_information {
+    font-size: 1.3vw;
+}
+
+.commodity_less_information .commodity_star {
+    width: 20%;
+    padding: 0% 10% 0% 0%;
+    color: orange;
+}
+
+.commodity_less_information .commodity_evaluate {
+    width: 20%;
+    padding: 0% 4% 0% 0%;
+}
+
+.commodity_less_information .commodity_evaluate_word {
+    font-size: 1.1vw;
+    opacity: 0.6;
+}
+
+.commodity_less_information .commodity_export_quantity {
+    width: 20%;
+    padding: 0% 4% 0% 0%;
+}
+
+.commodity_less_information .commodity_export_quantity_word {
+    font-size: 1.1vw;
+    opacity: 0.6;
+}
+
+.commodity_less_information .commodity_report {
+    float: right;
+    text-align: right;
+    font-size: 1.1vw;
+    width: 40%;
+}
+
+.commodity_less_information .commodity_report a {
+    color: black;
+    opacity: 0.6;
+}
+
+.commodity_less_information .commodity_report a:hover {
+    color: black;
+    opacity: 0.6;
+}
+
+.commodity_price {
+    color: orange;
+    font-size: 2vw;
+    padding: 1% 2% 1%;
+    background-color: rgb(245, 245, 245);
+}
+
+.commodity_interface {
+    margin: 3% 0% 2%;
+    padding: 0% 2% 0%;
+}
+
+.commodity_freight {
+    display: flex;
+    margin: 2% 0% 2%;
+}
+
+.commodity_freight_word {
+    opacity: 0.6;
+    width: 20%;
+}
+
+.commodity_freight_price {
+    width: 80%;
+}
+
+.commodity_type {
+    display: flex;
+    margin: 2% 0% 2%;
+}
+
+.commodity_type_word {
+    opacity: 0.6;
+    width: 20%;
+}
+
+.commodity_type_form {
+    display: flex;
+    width: 80%;
+}
+
+.commodity_type_form .row {
+    display: flex;
+}
+
+.type_item {
+    margin: 0% 0% 4%;
+    text-align: center;
+}
+
+.commodity_quantity {
+    display: flex;
+    margin: 2% 0% 2%;
+}
+
+.commodity_quantity_word {
+    opacity: 0.6;
+    width: 20%;
+}
+
+.control_quantity{
+    display: flex;
+}
+
+
+.num{
+    width: 4vw;
+    height: 1vh;
+}
+
+.commodity_button{
+    margin: 7% 0% 0%;
+}
+
+.commodity_button input{
+    width: 25%;
+    height: 12%;
+    font-size: 1.6vw;
+    color: white;
+}
+
+
+
+
+.merchant {
+    display: flex;
+    margin: 2% 0% 1%;
+    padding: 1% 2.5% 1.5% 4.5%;
+    background-color: white;
+}
+
+.merchant_contact {
+    display: flex;
+}
+
+.merchant_icon {
+    width: 7%;
+}
+
+.merchant_icon img {
+    /* width: 90%;
+    height: 90%; */
+}
+
+.merchant_less_information {
+    width: 40%;
+    padding: 0% 1% 0%;
+}
+
+.merchant_name {
+    font-size: 1.6vw;
+}
+
+.merchant_online_time {
+    font-size: 1.2vw;
+    opacity: 0.6;
+}
+
+.comment {
+    /* display: flex; */
+    padding: 2% 2.5% 1.5% 2%;
+    background-color: white;
+}
+
+.comment_word {
+    font-size: 1.6vw;
+}
+
+.message_board {
+    padding: 1% 1% 1.5% 3%;
+}
+
+.message_name {
+    font-size: 1.2vw;
+    color: orange;
+}
+
+.message_star {
+    font-size: 1.4vw;
+    margin: 1% 0% 0% 2%;
+}
+
+.message_date_and_commodity {
+    display: flex;
+    font-size: 1vw;
+    opacity: 0.6;
+    margin: 1% 0% 0% 2%;
+}
+
+.message_date {
+    margin: 0% 2% 0% 0%;
+}
+
+.message {
+    font-size: 1.6vw;
+    margin: 1% 0% 1% 2%;
+}

@@ -1,0 +1,93 @@
+.footer {
+    margin: 2% 10% 5%;
+}
+
+.information {
+    display: flex;
+}
+
+.information2 {
+    /* display: flex; */
+}
+
+.description_block2 {
+    /* height: auto; */
+    float: right;
+}
+
+.text_r {
+    color: black;
+    font-size: 1vw;
+    opacity: 0.5;
+    text-align: right;
+}
+
+.text_l {
+    color: black;
+    font-size: 1vw;
+    opacity: 0.5;
+    text-align: left;
+}
+
+.description_block2 a:hover {
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
+
+.description_block {
+    width: 20%;
+    padding-top: 5%;
+    /* 以整個畫面算的 */
+    padding-bottom: 5%;
+    padding-left: 5%;
+    text-align: left;
+}
+
+.title {
+    /* font-size: 4px; */
+    font-size: 1vw;
+}
+
+.text {
+    color: black;
+    /* font-size: 12px; */
+    font-size: 1vw;
+    opacity: 0.5;
+}
+
+.icon {
+    display: flex;
+    text-align: left;
+}
+
+.icon1 {
+    width: 35%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 8%;
+}
+
+.icon2 {
+    width: 1.5vw;
+    padding-right: 3%;
+}
+
+.iconQR {
+    width: 55%;
+    padding-right: 5%;
+}
+
+.icon3 {
+    width: 5vw;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.description_block a:hover {
+    color: orange;
+    opacity: 0.8;
+    text-decoration: none;
+}

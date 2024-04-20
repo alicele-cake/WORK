@@ -1,0 +1,246 @@
+
+
+.content {
+    padding: 1% 1% 1%;
+    display: flex;
+    background-color: rgb(245, 245, 245);
+}
+
+.criteria_search_bar {
+    width: 25%;
+    padding: 1% 1% 1%;
+}
+
+.funnel_marked {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 2% 0% 6%;
+    display: flex;
+}
+
+.funnel_marked svg {
+    width: 8%;
+}
+
+.funnel_marked b {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 1%;
+    font-size: 1.5vw;
+}
+
+.price_range_word {
+    font-size: 1.2vw;
+}
+
+.price_range {
+    padding: 0% 0% 5%;
+}
+
+.price_range div {
+    display: flex;
+}
+
+.price_range input {
+    width: 100%;
+}
+
+.price_range div hr {
+    font-size: 2vw;
+    padding: 0% 10% 0%;
+    width: 10%;
+}
+
+.price_range div input {
+    width: 45%;
+}
+
+.price_range div input::placeholder {
+    font-size: 0.8vw;
+}
+
+.accordion-item {}
+
+.accordion-button {
+    font-size: 1.4vw;
+}
+
+.form-check {
+    font-size: 1.5vw;
+}
+
+.commodity_area {
+    width: 100%;
+}
+
+.filter {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    margin: 2% 0% 3%;
+}
+
+.filter_item {
+    width: 15%;
+    margin: 2% 2% 2%;
+}
+
+.filter_area {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.filter_word {
+    width: 5%;
+    font-size: 1.2vw;
+}
+
+.filter_area a {
+    color: black;
+    background-color: white;
+}
+
+.filter_area .click {
+    color: white;
+    background-color: orange;
+}
+
+.filter_area p {
+    align-items: center;
+    margin: 2% 2% 2%;
+}
+
+.filter_area div .dropdown-menu a:hover {
+    color: orange;
+    background-color: white;
+}
+
+.page {
+    font-size: 1.2vw;
+    padding: 0% 0% 0% 15%;
+}
+
+.page span {
+    color: orange;
+    font-size: 1.2vw;
+    padding: 0% 0% 0% 15%;
+}
+
+.filter_area nav {
+    padding: 1.5% 1% 0% 0%;
+}
+
+/* .dropdown-menu li label {
+    width: 100%;
+} */
+
+.commodity_item {
+    /* width: 20%; */
+    background-color: white;
+}
+
+.picture img {
+    width: 100%;
+    height: 38vh;
+    object-fit: contain;
+}
+
+.commodity_text {
+    display: grid;
+}
+
+.text_title {
+    font-size: 1.5vw;
+    color: black;
+}
+
+.price {
+
+    font-size: 1.3vw;
+    color: red;
+}
+
+.price span {
+    font-size: 1.5vw;
+    color: red;
+}
+
+.commodity_text div {
+    position: relative;
+}
+
+.fraction {
+    float: left;
+    font-size: 1.3vw;
+    color: black;
+}
+
+.sales {
+    float: right;
+    font-size: 1vw;
+    color: black;
+}
+
+.area {
+    font-size: 1vw;
+    color: black;
+    opacity: 0.5;
+}
+
+.page-item_upside li a {
+    text-align: center;
+    padding: 5% 0% 0%;
+    width: 3vw;
+    height: 3vw;
+}
+
+.page-item_upside li a span {
+    font-size: 1.5vw;
+}
+
+.turn_the_page {
+    color: black;
+    opacity: 0.5;
+}
+
+.page-item_underneath .page_turn a {
+    text-align: center;
+    padding: 10% 0% 0%;
+    width: 5vw;
+    height: 5vw;
+}
+
+.page-item_underneath .page_turn a span {
+    font-size: 2.5vw;
+}
+
+.page-item_underneath .page_number a {
+    text-align: center;
+    font-size: 2.3vw;
+    padding: 15% 0% 0%;
+    width: 5vw;
+    height: 5vw;
+}
+
+.page-item a {
+    color: black;
+    opacity: 0.7;
+}
+
+.page-item a:hover {
+    color: black;
+    opacity: 0.7;
+}
+
+
+.page-item .click {
+    color: white;
+    background-color: orange;
+}
+
+.paging {
+    width: 100%;
+    margin: 5% 0% 3%;
+    padding: 0% 0% 0% 30%;
+}

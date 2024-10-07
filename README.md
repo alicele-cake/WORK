@@ -55,13 +55,21 @@ Home_screen.css : Home_screen.html的樣式控制
 
 picture: 總覽介紹首頁的照片來源
 
+
+　
+
+　
+
+　
+
+ 
 #### 商店:
 
 (以下都在shop下)
 
 shop/shop/datatable_php/datatable.php:資料庫有關的函數(function)，如下:
 
-連線帳號和商店資料庫
+: 連線帳號和商店資料庫
 
 getUserName() : 得到帳號名稱
 
@@ -97,11 +105,12 @@ getCommoditys_message : 計算某商品留言總數量
 
 create_commodity_information : 加入某商品主要資訊
 
+　
 
+　
 
-
-
-
+　
+ 
 在shop/login_php/下
 
 php/create_user.php : 辨別帳號是否註冊
@@ -112,16 +121,18 @@ screen/register_account.php : HTML顯示登入畫面，連動 ../php/create_user
 
 screen/register_success.php : 帳號註冊成功畫面
 
+　
 
+　
 
+　
+ 
+## 改善方案 : 
 
+- 程式不容易修改，需要使用框架
 
-##改善方案 : 
+- 程式有些多餘程式沒有很好的歸類在文件中，例如:CSS。
 
-程式不容易修改，需要使用框架
+- 主鍵、ID等資料庫格式問題待解決。
 
-程式有些多餘程式沒有很好的歸類在文件中，例如:CSS。
-
-主鍵、ID等資料庫格式問題待解決。
-
-重複的函數
+- 重複的函數
